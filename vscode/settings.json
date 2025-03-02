@@ -1,0 +1,44 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.fontFamily": "MesloLGS NF",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily",
+        "terminal.integrated.cwd"
+    ],
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "color": "terminal.ansiCyan"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [
+                "--cd=."
+            ],
+            "icon": "terminal-cmd",
+            "color": "terminal.ansiWhite"
+        },
+        "Git Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "icon": "terminal-bash",
+            "args": [
+                "-i",
+                "-l"
+            ],
+            "color": "terminal.ansiGreen"
+        }
+    },
+    "editor.fontLigatures": false,
+    "window.newWindowProfile": "Default",
+    "terminal.integrated.cwd": "C:/Users/cphil/Documents/",
+    "terminal.external.windowsExec": "C:\\Users\\cphil\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+}
