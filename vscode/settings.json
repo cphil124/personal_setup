@@ -1,10 +1,17 @@
 {
-    "workbench.colorTheme": "Default Dark+",
+    // "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "One Monokai Italics",
+    "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "editor.fontFamily": "MesloLGS NF",
+    "editor.fontFamily": "'Victor Mono', 'Fira Code', Consolas",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "window.zoomLevel": 1,
+    "jupyter.askForKernelRestart": false,
+    "editor.fontWeight": "normal",
     "terminal.integrated.shellIntegration.enabled": true,
     "workbench.settings.applyToAllProfiles": [
         "editor.fontFamily",
@@ -37,8 +44,7 @@
             "color": "terminal.ansiGreen"
         }
     },
-    "editor.fontLigatures": false,
     "window.newWindowProfile": "Default",
     "terminal.integrated.cwd": "C:/Users/cphil/Documents/",
-    "terminal.external.windowsExec": "C:\\Users\\cphil\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+    "terminal.external.windowsExec": "C:\\Users\\cphil\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
 }
