@@ -8,14 +8,15 @@
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "editor.fontFamily": "'Victor Mono', 'Fira Code', Consolas",
     "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
     "window.zoomLevel": 1,
     "jupyter.askForKernelRestart": false,
     "editor.fontWeight": "normal",
     "terminal.integrated.shellIntegration.enabled": true,
     "workbench.settings.applyToAllProfiles": [
         "editor.fontFamily",
-        "terminal.integrated.cwd"
+        "terminal.integrated.cwd",
+        "terminal.integrated.profiles.windows"
     ],
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
